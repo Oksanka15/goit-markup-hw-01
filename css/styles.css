@@ -1,0 +1,107 @@
+:root {
+    /*fonts*/
+    --main-font: 'Roboto', sans-serif;
+    --sekondary-font: 'Raleway', sans-serif;
+    /*fonts color*/
+    --main-txt-cl: #212121;
+    /*bg colors*/
+    --light-br-color: #FFFFFF;
+    --dark-br-color: #2F303A;
+    --akcent-color: #2196F3;
+    /*other*/
+}
+
+.body {
+    font-family: var(--main-font);
+    color: var(--main-txt-cl);
+}
+
+.logo {
+    font-family: var(--sekondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+.logo-cl{color:var(--akcent-color);}
+
+.link {
+    text-decoration: none;
+
+}
+
+.list {
+    list-style: none;
+}
+
+/*heder sektion*/
+
+.header-link {
+    font-style: Medium;
+    font-size: 14px;
+    Line-height: 1.14;
+    color: var(--main-txt-cl);
+}
+
+.header-link-carrent {
+    color: var(--akcent-color);
+}
+
+.header-link:hover,
+.header-link:active {
+    color: var(--akcent-color);
+}
+
+.link-tel {
+    color: #757575;
+}
+
+.link-tel:hover,
+.link-tel:active {
+    color: var(--akcent-color);
+}
+
+.btn {
+    cursor: pointer;
+}
+
+.btn-list:hover,
+.btn-list:active {
+    color: #000000;
+    background-color: transparent;
+}
+
+.btn-list {
+    font-size: 16px;
+    line-height: 1.62;
+    background-color: #F5F4FA;
+}
+
+.name {
+    font-family: var(--main-font);
+    font-size: 18px;
+    line-height: 1.2;
+    color: var(--main-txt-cl);
+}
+
+.link-name {
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+.footer {
+    background-color: #2F303A;
+    font-family: var(--main-font);
+    
+}
+.logo-bl{
+    font-family: var(--sekondary-font);
+    color: #FFFFFF;
+}
+.plase {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 1.7;
+    color: #FFFFFF;}
