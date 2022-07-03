@@ -13,7 +13,7 @@
 
 .body {
     font-family: var(--main-font);
-    color: var(--main-txt-cl);
+    color: #757575;
 }
 
 .logo {
@@ -39,11 +39,15 @@
 }
 
 /*heder sektion*/
+.header {
+    font-family: var(--main-font);
+}
 
 .header-link {
-    font-style: Medium;
     font-size: 14px;
-    Line-height: 1.14;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
     color: var(--main-txt-cl);
 }
 
@@ -58,8 +62,24 @@
 
 .link-tel {
     color: #757575;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.02em;
+
+
 }
 
+.link-tel-foot {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.link-tel-foot:hover,
+.link-tel-foot:active,
 .link-tel:hover,
 .link-tel:active {
     color: var(--akcent-color);
@@ -71,26 +91,42 @@
 
 .btn-list:hover,
 .btn-list:active {
-    color: #000000;
-    background-color: transparent;
+    color: #FFFFFF;
+    background-color: var(--akcent-color);
 }
 
 .btn-list {
+    font-family: var(--main-font);
+    font-weight: 500;
     font-size: 16px;
-    line-height: 1.62;
+    line-height: calc(26 /16);
+    letter-spacing: 0.03em;
+    color: #212121;
     background-color: #F5F4FA;
 }
 
 .name {
     font-family: var(--main-font);
-    font-size: 18px;
-    line-height: 1.2;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.03em;
     color: var(--main-txt-cl);
 }
 
 .link-name {
+    font-family: var(--main-font);
+    font-weight: 400;
     font-size: 16px;
-    line-height: 1.87;
+    line-height: calc(19 / 16);
+    letter-spacing: 0.03em;
+    color: #757575;
+
+}
+
+.name-upps {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(30 /16);
     letter-spacing: 0.03em;
     color: #757575;
 }
@@ -101,57 +137,72 @@
 
 }
 
+
+
 .logo-bl {
     font-family: var(--sekondary-font);
     color: #FFFFFF;
 }
 
 .plase {
+    font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 1.7;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    font-style: normal;
     color: #FFFFFF;
 }
 
 /*index.html*/
 .section {
-    font-family: var(--main-font);
-    color: #FFFFFF;
+    text-align: center;
     background-color: #2F303A;
-    width: 1600px;
-    height: 600px;
+
+}
+
+.section-title {
+    font-family: var(--main-font);
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.36;
-    text-align: center;
+    line-height: calc(60 / 44);
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    color: #FFFFFF;
 }
 
 .btn-order {
-    color: #FFFFFF;
+    font-family: var(--main-font);
     background-color: var(--akcent-color);
-    width: 200px;
-    height: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(30 / 16);
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
 }
+
 
 .btn-order:hover,
 .btn-order:active {
-    color: var(--akcent-color);
-    background-color: #FFFFFF;
+    background-color: #188CE8;
 }
+
 
 .name-action,
 .name-komand {
+    font-weight: 700;
     font-size: 36px;
-    line-height: 1.16;
+    line-height: calc(42 /36);
+    text-transform: none;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
 }
+
 .name-users {
+    font-family: var(--main-font);
+    font-weight: 500;
     font-size: 16px;
-    line-height: 1.18;
+    line-height: calc(19 /16);
     letter-spacing: 0.03em;
     color: var(--main-txt-cl);
 }
