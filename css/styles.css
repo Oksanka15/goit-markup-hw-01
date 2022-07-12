@@ -130,6 +130,7 @@ img {
     padding-top: 32px;
     padding-bottom: 32px;
 }
+/*ПОРТФОЛІО*/
 
 .section.block {
     padding-bottom: 0%;
@@ -203,6 +204,10 @@ img {
 
 }
 
+.big-container {
+    display: flex;
+}
+
 
 
 .list-container {
@@ -249,11 +254,10 @@ img {
     text-transform: capitalize;
     font-size: 18px;
     line-height: 36px;
-    margin-bottom: 4px;
-   
+    margin-bottom: 4;
+
 
     letter-spacing: 0.06em;
-
     color: #212121;
 }
 
@@ -299,9 +303,6 @@ img {
     border-radius: 0px 0px 4px 4px;
 }
 
-
-
-
 .plase {
 
     font-size: 14px;
@@ -325,11 +326,6 @@ img {
     background-color: #2F303A;
 
 }
-
-.big-container {
-    display: flex;
-}
-
 
 .section-title {
     font-family: var(--main-font);
