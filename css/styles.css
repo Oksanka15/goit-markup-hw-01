@@ -115,10 +115,9 @@ img {
     color: var(--akcent-color);
 }
 
-.icons-media:hover,
-.icons-media:active {
-    fill: var(--akcent-color);
-    cursor: pointer;
+.icons-media {
+    fill: currentColor;
+
 }
 
 .list-header {
@@ -128,6 +127,8 @@ img {
 
 
 .link-tel {
+    display: flex;
+    gap: 10px;
     color: #757575;
     font-weight: 500;
     font-size: 14px;
@@ -195,6 +196,9 @@ img {
     min-width: 200px;
     min-height: 50px;
     color: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 
@@ -227,7 +231,7 @@ img {
 .list-container {
     display: flex;
     align-items: center;
-    gap: 28px;
+    gap: 30px;
 }
 
 .name {
@@ -243,6 +247,7 @@ img {
 
 .name-users {
     margin-bottom: 10px;
+    align-items: center;
 
 }
 
@@ -316,27 +321,15 @@ img {
 }
 
 .team-wrapper {
-    display: flex;
-    flex-direction: column;
-    width: 270px;
-    min-height: 168px;
     padding-top: 30px;
     padding-bottom: 30px;
     text-align: center;
     background-color: #FFFFFF;
-
-    cursor: pointer;
-
-    border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
 
-.team-container {
-    border-radius: 0px 0px 4px 4px;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-
-}
+.team-container {}
 
 /*.team-wrapper:hover,
 .team-wrapper:focus
@@ -351,62 +344,44 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-
-    margin-right: 32px;
-    margin-left: 32px;
-
-
+    gap: 10px;
 }
 
 
 
-.social-items {
+.socials-link {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 5px;
-    padding: 22px;
-
     width: 44px;
     height: 44px;
     border-radius: 50%;
-}
-
-
-.social-items:hover,
-.social-items:active {
-    cursor: pointer;
-    fill: #FFFFFF;
-
-
-    background-color: var(--akcent-color);
-}
-
-.socials-icon {
     fill: #AFB1B8;
-
 }
 
-.socials-icon:hover,
-.socials-icon :active {
 
+.socials-link:hover,
+.socials-link:focus {
 
     fill: #FFFFFF;
     background-color: var(--akcent-color);
 }
-
 
 /* IKONS*/
-.container-icons {
-    padding: 25px 100px;
-    margin-bottom: 30px;
+.container-icons {}
+
+.adwantages-wrap {
+    display: flex;
     width: 270px;
     height: 120px;
 
 
     background: #F5F4FA;
     border-radius: 4px;
+    margin-bottom: 30px;
 
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -420,13 +395,22 @@ img {
 
 }
 
-.partner-icon {
+.partner-logotype {
+    display: flex;
+    align-items: center;
     fill: #AFB1B8;
-    width: 106px;
-    height: 60px;
+    width: 170px;
+    height: 92px;
+    padding: 16px 32px;
+    min-width: 170px;
+    min-height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+
 }
 
-.partner-nemes {
+
+/*.partner-nemes {
     padding: 16px 32px;
     min-width: 170px;
     min-height: 92px;
@@ -441,12 +425,16 @@ img {
 
     border: 1px solid var(--akcent-color);
 
-}
+}*/
 
-.partner-icon:hover,
-.partner-icone:focus {
+.partner-logotype:hover,
+.partner-logotype:focus {
 
     fill: var(--akcent-color);
+
+    border: 1px solid var(--akcent-color);
+
+
 
 }
 
@@ -475,15 +463,12 @@ img {
     padding: 200px 0;
     text-align: center;
 
-
-    background-image: url(/images/backroundimg.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4) 0%, rgba(47, 48, 58, 0.4) 100%), url(../images/backroundimg.jpg);
     background-repeat: no-repeat;
     background-size: auto;
     background-position: center;
-
-    background-color: #2F303A;
-
 }
+
 
 .section-title {
     font-family: var(--main-font);
@@ -617,16 +602,19 @@ img {
 .footer-icons {
     display: flex;
     flex-direction: column;
-    margin-left: auto;
+    padding-top: 12px;
+    margin-left: 70px;
+
 }
 
 .footer-items {
     display: flex;
+
 }
 
 .footer-join {
     font-size: 14px;
-    line-height: 16px;
+    line-height: calc(16 / 14);
     letter-spacing: 0.03em;
     text-transform: uppercase;
 
