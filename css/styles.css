@@ -75,7 +75,7 @@ img {
 }
 
 .header.no-transparency {
-    background-color: #2e6088 rgba(47, 48, 58, 0.7);
+    background-color: #2e6088 rgba(47, 48, 58);
     backdrop-filter: blur(4px);
 
 
