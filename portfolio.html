@@ -15,9 +15,9 @@
 
 </head>
 
-<body>
+<body data-page>
     <!--Шапка-->
-    <header class="header">
+    <header class="header" data-header>
         <div class="container header-container">
 
             <a class="link logo" href="">
@@ -48,16 +48,16 @@
 
         <section class="section">
             <div class="container">
-            <h1 class="visually-hidden">Портфоліо</h1>
-            <ul class="list container-btn">
+                <h1 class="visually-hidden">Портфоліо</h1>
+                <ul class="list container-btn">
 
-                <li><button class="btn btn-list" type="button">Все</button></li>
-                <li><button class="btn btn-list" type="button">Веб-сайты</button></li>
-                <li><button class="btn btn-list" type="button">Приложения</button></li>
-                <li><button class="btn btn-list" type="button">Дизайн</button></li>
-                <li><button class="btn btn-list" type="button">Маркетинг</button></li>
+                    <li><button class="btn btn-list" type="button">Все</button></li>
+                    <li><button class="btn btn-list" type="button">Веб-сайты</button></li>
+                    <li><button class="btn btn-list" type="button">Приложения</button></li>
+                    <li><button class="btn btn-list" type="button">Дизайн</button></li>
+                    <li><button class="btn btn-list" type="button">Маркетинг</button></li>
 
-            </ul>
+                </ul>
             </div>
             <!--</section>-->
             <!--  <section class="section">-->
@@ -65,11 +65,16 @@
                 <ul class="list list-card">
                     <li class="card">
                         <a class="link link-card" href="">
-                            <img class="img img-portfolio" src="./images/tehno.jpg" alt="tehno1" width="370"
-                                height="295">
-                            <div class="cards-link">
-                                <h2 class="name name-progect">Технокряк</h2>
-                                <p class="name-upps ">Веб-сайт</p>
+                            <div class="overlay">
+                                <p class="overlay-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
+                                    Все это позволит посетителю получить исчерпывающие сведения о компании или частном
+                                    лице</p></div>
+                                <img class="img img-portfolio" src="./images/tehno.jpg" alt="tehno1" width="370"
+                                    height="295">
+                                <div class="cards-link">
+                                    <h2 class="name name-progect">Технокряк</h2>
+                                    <p class="name-upps ">Веб-сайт</p>
+                                
                             </div>
                         </a>
                     </li>
@@ -205,6 +210,8 @@
         </div>
 
     </footer>
+    <script src="./js/modal.js"></script>
+    <script src="./js/header.skroll.js"></script>
 </body>
 
 

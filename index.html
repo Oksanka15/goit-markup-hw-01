@@ -14,12 +14,16 @@
     <!--style modern-normalize-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css">
-
+    <!--animate-->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 </head>
 
-<body>
+<body data-page>
     <!--шапка сторінки -->
-    <header class="header">
+    <header class="header" data-header>
         <div class="container header-container">
 
             <a class="link logo" href="">
@@ -51,7 +55,7 @@
 
             <div class="container">
                 <h1 class="section-title">Эффективные решения<br> для вашего бизнеса</h1>
-                <button class="btn btn-order" type="button">Заказать услугу</button>
+                <button class="btn btn-order animate__animated animate__bounce animate__delay-3s animate__repeat-2" data-modal-open type="button">Заказать услугу</button>
             </div>
 
         </section>
@@ -104,12 +108,24 @@
                 <h2 class="name name-action">Чем мы занимаемся</h2>
 
                 <ul class="list img-cards">
-                    <li><img class="img" src="./images/img.jpg" alt="картинка верстка сайтів" width="370" height="294">
+                    <li><img class="img avatar-text" src="./images/img.jpg" alt="картинка верстка сайтів" width="370"
+                            height="294">
+                        <div class="content-container">
+                            <p class="avatar">Десктопные приложения</p>
+                        </div>
                     </li>
-                    <li><img class="img" src="./images/box2.jpg" alt="розробка мобільних додатків" width="370"
-                            height="294"></li>
-                    <li><img class="img" src="./images/box3.jpg" alt="стилізація та колористика" width="370"
-                            height="294"></li>
+                    <li><img class="img avatar-text" src="./images/box2.jpg" alt="розробка мобільних додатків"
+                            width="370" height="294">
+                        <div class="content-container">
+                            <p class="avatar">Мобильные приложения</p>
+                        </div>
+                    </li>
+                    <li><img class="img avatar-text" src="./images/box3.jpg" alt="стилізація та колористика" width="370"
+                            height="294">
+                        <div class="content-container">
+                            <p class="avatar">Дизайнерские решения</p>
+                        </div>
+                    </li>
                 </ul>
 
             </div>
@@ -363,6 +379,19 @@
         </div>
 
     </footer>
+    <!--ModalWindow-->
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button class="modal-btn" data-modal-close>
+                <svg class="" width="11" height="11">
+                    <use href="./images/icons.svg#icon-cross"></use>
+                </svg>
+            </button>
+        </div>
+
+    </div>
+    <script src="./js/modal.js"></script>
+    <script src="./js/header.skroll.js"></script>
 </body>
 
 
