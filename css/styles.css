@@ -807,11 +807,12 @@ img {
     position: absolute;
     top: 8px;
     right: 8px;
-    margin-top: 8px;
-    margin-right: 8px;
+   
     padding: 6px;
+
     width: 30px;
     height: 30px;
+
     display: flex;
     align-items: center;
     justify-content: center;
