@@ -15,10 +15,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css">
     <!--animate-->
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
 <body data-page>
@@ -55,7 +52,8 @@
 
             <div class="container">
                 <h1 class="section-title">Эффективные решения<br> для вашего бизнеса</h1>
-                <button class="btn btn-order animate__animated animate__bounce animate__delay-3s animate__repeat-2" data-modal-open type="button">Заказать услугу</button>
+                <button class="btn btn-order animate__animated animate__bounce animate__delay-3s animate__repeat-2"
+                    data-modal-open type="button">Заказать услугу</button>
             </div>
 
         </section>
@@ -376,6 +374,19 @@
                     </li>
                 </ul>
             </div>
+            <div class="form">
+                <form class="footer-form">
+                    <p class="footer-join form-name">Подпишитесь на рассылку</p>
+                    <label for="subscription">
+                        <input class="footer-input" type="text" name="subscription" value="" id="subscription"
+                            placeholder="E-mail">
+                    </label>
+                    <button type="submit" class="btn-subm">Подписаться<svg class="icon-icon-send" width="24"
+                            height="24">
+                            <use href="./images/icons.svg#icon-icon-send"></use>
+                        </svg></button>
+                </form>
+            </div>
         </div>
 
     </footer>
@@ -383,10 +394,54 @@
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button class="modal-btn" data-modal-close>
-                <svg class="" width="11" height="11">
+                <svg class="btn-close" width="11" height="11">
                     <use href="./images/icons.svg#icon-vector"></use>
                 </svg>
             </button>
+            <form class="speaker-form">
+            <strong class="modal-text">Оставьте свои данные, мы вам перезвоним</strong>
+            <div class="register-form-group" role="group">
+                <label for="name" class="modal-name-wrap">
+                    <span class="modal-name">Имя</span>
+                    <input type="text" name="name" class="register-form-input" id="name">
+                    <svg class="register-form-icon" width="12" height="12">
+                        <use href="images/icons.svg#icon-icon-person"></use>
+                    </svg></label>
+
+                <label for="tel" class="modal-name-wrap">
+                    <span class="modal-name">Телефон</span>
+                    <input type="number" name="tel" class="register-form-input" id="tel">
+                    <svg class="register-form-icon" width="13" height="13">
+                        <use href="images/icons.svg#icon-icon-tel"></use>
+
+                    </svg>
+                </label>
+                <label class="modal-name-wrap" for="mail">
+                    <span class="modal-name">Почта</span>
+                    <input type="text" name="mail" class="register-form-input" id="mail">
+
+                    <svg class="register-form-icon" width="15" height="12">
+                        <use href="images/icons.svg#icon-icon-mail"></use>
+                    </svg></label>
+
+                <label class="modal-name" for="textarea">
+                    <span class="modal-name">Комментарий</span>
+                    <textarea name="textarea" class="modal-name-textarea" id="textarea" cols="30" rows="10"
+                        placeholder="Введите текст"></textarea></label>
+
+            </div>
+
+            <label class="register-form-agreement" for="agreement">
+                <input class="register-cheked-box visually-hidden" type="checkbox" name="agreement" id="agreement">
+                <svg class="register-form" width="16" height="15">
+                    <use class="register-form-icon-uncheked" href="./images/icons.svg#border-icon"></use>
+                    <use class="register-form-icon-cheked" href="./images/icons.svg#icon-icon-check"></use>
+                </svg>
+                <span class="register-form-agreement-text">Соглашаюсь с рассылкой и принимаю</span><a
+                    class="register-form-link" href="">Условия договора</a>
+            </label>
+            <button class="register-form-btn" type="submit">Отправить</button>
+        </form>
         </div>
 
     </div>
