@@ -1,0 +1,18 @@
+.header {
+  position: sticky;
+  top: -1px;
+  border-bottom: 1px solid #ececec;
+  z-index: 100;
+}
+
+&.no-transparency {
+  background-color: #2e6088 rgba(47, 48, 58);
+  backdrop-filter: blur(4px);
+}
+
+.header-container {
+    display: flex;
+    min-height: 80px;
+    align-items: center;
+  }
+

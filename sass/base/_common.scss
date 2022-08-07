@@ -4,6 +4,6 @@ body {
     margin-right: auto;
   }
   
-  .no-scroll {
+  &.no-scroll {
     overflow: hidden;
   }
