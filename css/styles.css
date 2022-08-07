@@ -346,7 +346,7 @@ p {
   margin-bottom: 10px;
   align-items: center;
 }
-*/
+*//*
 .img-portfolio {
   border-top: none;
   border-right: none;
@@ -370,6 +370,7 @@ p {
   text-transform: capitalize;
   font-size: 18px;
   line-height: 36px;
+
   margin-bottom: 4px;
 
   letter-spacing: 0.06em;
@@ -383,7 +384,6 @@ p {
   letter-spacing: 0.03em;
   color: #757575;
 }
-
 .team-list {
   display: flex;
 
@@ -569,12 +569,12 @@ p {
   letter-spacing: 0.03em;
   color: #212121;
   margin-bottom: 50px;
-}*/
+}
 
 .inform-card {
   display: flex;
   height: 108px;
-}
+}*/
 /*
 .name-users {
   font-family: var(--main-font);
