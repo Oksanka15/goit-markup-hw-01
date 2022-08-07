@@ -5,8 +5,15 @@
     margin-right: auto;
     margin-left: auto;
   }
+  section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 
 .logo {
+  
+    margin-right: 93px;
+ 
     font-family: var(--sekondary-font);
     font-weight: 700;
     font-size: 26px;
@@ -27,3 +34,13 @@
     display: block;
   }
   
+  .name {
+    font-family: var(--main-font);
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: var(--main-txt-cl);
+    text-transform: uppercase;
+  
+    margin-bottom: 10px;
+  }

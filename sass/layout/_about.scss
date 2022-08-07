@@ -1,0 +1,29 @@
+.about {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .about__adwantages-wrap {
+    display: flex;
+    width: 270px;
+    height: 120px;
+  
+    background: #f5f4fa;
+    border-radius: 4px;
+    margin-bottom: 30px;
+  
+    justify-content: center;
+    align-items: center;
+  }
+  .about__link-name {
+    font-family: var(--main-font);
+    font-size: 14px;
+    line-height: 1.71;
+  
+    letter-spacing: 0.03em;
+    color: #757575;
+    min-width: 270px;
+    min-height: 16px;
+  }
+  

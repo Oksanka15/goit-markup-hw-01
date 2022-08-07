@@ -1,5 +1,6 @@
 //utils
 @import "./utils/vars";
+@import "./utils/visually-hidden";
 
 //Base
 @import "./base/base-style";
@@ -9,6 +10,18 @@
 
 //layout
 @import"./layout/header";
-
+@import"./layout/nav";
+@import"./layout/hero";
+@import"./layout/portfolio";
+@import"./layout/about";
+@import"./layout/section-img";
+@import"./layout/team-section";
+@import"./layout/partner-section";
+@import"./layout/footer";
 
 //components
+@import"./components/buttons";
+@import"./components/icons";
+@import"./components/modal-window";
+@import"./components/input";
+@import"./components/buttons-modal";

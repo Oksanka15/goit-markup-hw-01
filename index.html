@@ -29,18 +29,18 @@
   <body data-page>
     <!--шапка сторінки -->
     <header class="header" data-header>
-      <div class="container header-container">
+      <div class="container header__container">
         <a class="link logo" href=""> <span class="logo-cl">Web</span>Studio </a>
 
         <ul class="list list-header">
-          <li><a class="header-link link header-link-carrent" href="">Студия</a></li>
-          <li><a class="header-link link" href="./portfolio.html">Портфолио</a></li>
-          <li><a class="header-link link" href="#footer">Контакты</a></li>
+          <li><a class="list-header__link link list-header__link--carrent" href="">Студия</a></li>
+          <li><a class="list-header__link link" href="./portfolio.html">Портфолио</a></li>
+          <li><a class="list-header__link link" href="#footer">Контакты</a></li>
         </ul>
         <nav class="nav">
-          <ul class="list list-header">
+          <ul class="list nav__list-header">
             <li>
-              <a class="link link-tel" href="mailto:info@devstudio.com">
+              <a class="link nav__link-tel" href="mailto:info@devstudio.com">
                 <svg class="icons-media" width="16" height="12">
                   <use href="./images/icons.svg#icon-envelope-hover"></use>
                 </svg>
@@ -48,7 +48,7 @@
               >
             </li>
             <li>
-              <a class="link link-tel" href="tel:+380961111111">
+              <a class="link nav__link-tel" href="tel:+380961111111">
                 <svg class="icons-media" width="10" height="16">
                   <use href="./images/icons.svg#icon-smartphone"></use>
                 </svg>
@@ -61,14 +61,14 @@
     </header>
     <!--контент з кнопкою-->
     <main>
-      <section class="section section-hero">
+      <section class="section hero">
         <div class="container">
-          <h1 class="section-title">
+          <h1 class="hero__title">
             Эффективные решения<br />
             для вашего бизнеса
           </h1>
           <button
-            class="btn btn-order animate__animated animate__bounce animate__delay-3s animate__repeat-2"
+            class="btn btn__order animate__animated animate__bounce animate__delay-3s animate__repeat-2"
             data-modal-open
             type="button"
           >
@@ -80,48 +80,48 @@
       <!-- наші переваги -->
       <section class="section block">
         <div class="container">
-          <ul class="list list-container">
+          <ul class="list about">
             <li>
-              <div class="adwantages-wrap">
+              <div class="about__adwantages-wrap">
                 <svg class="container-icons" width="70" height="70">
                   <use href="./images/icons.svg#icon-antenna"></use>
                 </svg>
               </div>
               <h2 class="name">Внимание к деталям</h2>
-              <p class="link-name">
+              <p class="about__link-name">
                 Идейные соображения, а также начало повседневной работы по формированию позиции.
               </p>
             </li>
             <li>
-              <div class="adwantages-wrap">
+              <div class="about__adwantages-wrap">
                 <svg class="container-icons" width="70" height="70">
                   <use href="./images/icons.svg#icon-clock"></use>
                 </svg>
               </div>
               <h2 class="name">Пунктуальность</h2>
-              <p class="link-name">
+              <p class="about__link-name">
                 Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
               </p>
             </li>
             <li>
-              <div class="adwantages-wrap">
+              <div class="about__adwantages-wrap">
                 <svg class="container-icons" width="70" height="70">
                   <use href="./images/icons.svg#icon-diagram"></use>
                 </svg>
               </div>
               <h2 class="name">Планирование</h2>
-              <p class="link-name">
+              <p class="about__link-name">
                 Равным образом консультация с широким активом в значительной степени обуславливает.
               </p>
             </li>
             <li>
-              <div class="adwantages-wrap">
+              <div class="about__adwantages-wrap">
                 <svg class="container-icons" width="70" height="70">
                   <use href="./images/icons.svg#icon-astronaut"></use>
                 </svg>
               </div>
               <h2 class="name">Современные технологии</h2>
-              <p class="link-name">
+              <p class="about__link-name">
                 Значимость этих проблем настолько очевидна, что реализация плановых заданий.
               </p>
             </li>
@@ -131,42 +131,42 @@
       <!--чим займається фірма-->
       <section class="section">
         <div class="container img">
-          <h2 class="name name-action">Чем мы занимаемся</h2>
+          <h2 class="name name__action">Чем мы занимаемся</h2>
 
-          <ul class="list img-cards">
+          <ul class="list img__cards">
             <li>
               <img
-                class="img avatar-text"
+                class="img img__avatar-text"
                 src="./images/img.jpg"
                 alt="картинка верстка сайтів"
                 width="370"
                 height="294"
               />
-              <div class="content-container">
+              <div class="content__container">
                 <p class="avatar">Десктопные приложения</p>
               </div>
             </li>
             <li>
               <img
-                class="img avatar-text"
+                class="img img__avatar-text"
                 src="./images/box2.jpg"
                 alt="розробка мобільних додатків"
                 width="370"
                 height="294"
               />
-              <div class="content-container">
+              <div class="content__container">
                 <p class="avatar">Мобильные приложения</p>
               </div>
             </li>
             <li>
               <img
-                class="img avatar-text"
+                class="imgimg__avatar-text"
                 src="./images/box3.jpg"
                 alt="стилізація та колористика"
                 width="370"
                 height="294"
               />
-              <div class="content-container">
+              <div class="content__container">
                 <p class="avatar">Дизайнерские решения</p>
               </div>
             </li>
@@ -175,7 +175,7 @@
       </section>
 
       <!--Наша команда-->
-      <section class="section section-card">
+      <section class="section team-card">
         <div class="container">
           <h2 class="name name-komand">Наша команда</h2>
           <ul class="list team-list">
@@ -453,12 +453,12 @@
         </div>
       </section>
       <section class="section">
-        <div class="container container-partners">
+        <div class="container ">
           <h2 class="name name-komand">Постоянные клиенты</h2>
-          <ul class="partner-list">
-            <li class="partner-nemes">
+          <ul class="partner">
+            <li class="partner__nemes">
               <a
-                class="partner-logotype"
+                class="partner__logotype"
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
@@ -469,9 +469,9 @@
                 </svg>
               </a>
             </li>
-            <li class="partner-nemes">
+            <li class="partner__nemes">
               <a
-                class="partner-logotype"
+                class="partner__logotype"
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
@@ -482,9 +482,9 @@
                 </svg>
               </a>
             </li>
-            <li class="partner-nemes">
+            <li class="partner__nemes">
               <a
-                class="partner-logotype"
+                class="partner__logotype"
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
@@ -495,9 +495,9 @@
                 </svg>
               </a>
             </li>
-            <li class="partner-nemes">
+            <li class="partner__nemes">
               <a
-                class="partner-logotype"
+                class="partner__logotype"
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
@@ -508,9 +508,9 @@
                 </svg>
               </a>
             </li>
-            <li class="partner-nemes">
+            <li class="partner__nemes">
               <a
-                class="partner-logotype"
+                class="partner__logotype"
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
@@ -521,7 +521,7 @@
                 </svg>
               </a>
             </li>
-            <li class="partner-nemes">
+            <li class="partner__nemes">
               <a
                 class="partner-logotype"
                 href=""

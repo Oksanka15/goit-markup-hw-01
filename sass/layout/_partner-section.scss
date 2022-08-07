@@ -1,0 +1,35 @@
+.partner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+    padding-left: 0ch;
+    gap: 15px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  .partner__logotype {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    fill: #afb1b8;
+    width: 170px;
+    height: 92px;
+    padding: 16px 32px;
+    min-width: 170px;
+    min-height: 92px;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
+  &:hover, 
+  &:focus {
+    fill: var(--akcent-color);
+    border: 1px solid var(--akcent-color);
+  }}
