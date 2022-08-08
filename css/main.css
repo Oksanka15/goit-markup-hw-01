@@ -378,6 +378,16 @@ p {
           align-items: center;
 }
 
+.about__name {
+  font-family: var(--main-font);
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: var(--main-txt-cl);
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
 .about__link-name {
   font-family: var(--main-font);
   font-size: 14px;
@@ -431,7 +441,7 @@ p {
   background: rgba(47, 48, 58, 0.8);
 }
 
-.content__container {
+.avatar__container {
   position: absolute;
   -webkit-transform: translateY(-100%);
           transform: translateY(-100%);
@@ -460,15 +470,29 @@ p {
   border-radius: 0px 0px 4px 4px;
 }
 
+.team-card__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 30px;
+}
+
 .team-list__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 15px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   width: 270px;
 }
 
-.name-komand {
+.team-card__name {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.1666666667;
@@ -496,6 +520,7 @@ p {
   font-family: var(--main-font);
   font-size: 14px;
   line-height: 1.71;
+  margin-bottom: 16px;
   letter-spacing: 0.03em;
   color: #757575;
   min-width: 270px;
@@ -624,7 +649,7 @@ p {
   display: flex;
 }
 
-.footer-join {
+.form__join {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1428571429;
@@ -647,7 +672,7 @@ p {
   margin-left: -5px;
 }
 
-.footer-form {
+.footer__form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -656,6 +681,15 @@ p {
       -ms-flex-direction: column;
           flex-direction: column;
   position: relative;
+}
+
+.footer__join {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1428571429;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 
 .btn__list {
@@ -730,7 +764,7 @@ p {
   gap: 10px;
 }
 
-.socials-link {
+.socials__link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -747,7 +781,7 @@ p {
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.socials-link:hover, .socials-link:focus {
+.socials__link:hover, .socials__link:focus {
   fill: #ffffff;
   background-color: var(--akcent-color);
 }
@@ -877,7 +911,6 @@ p {
 }
 .modal-btn:hover, .modal-btn:focus {
   fill: var(--akcent-color);
-  border: 2px solid var(--akcent-color);
 }
 
 .list-modal {
@@ -1082,11 +1115,12 @@ p {
 .footer-input {
   min-width: 358px;
   min-height: 50px;
+  padding-left: 16px;
   background-color: inherit;
+  border: 1px solid rgba(255, 255, 255, 0.3);
   -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
           filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-  padding-left: 10px;
 }
 .footer-input:focus {
   font-family: var(--main-font);

@@ -74,7 +74,7 @@
   display: flex;
 }
 
-.footer-join {
+.form__join{
   font-weight: 700;
   font-size: 14px;
   line-height: calc(16 / 14);
@@ -98,8 +98,16 @@
   margin-left: -5px;
 }
 
-.footer-form {
+.footer__form {
   display: flex;
   flex-direction: column;
   position: relative;
 }
+.footer__join {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;}

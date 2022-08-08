@@ -15,13 +15,18 @@
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.team-list__container{
+.team-card__list {
   display: flex;
+  flex-direction: row;
+  gap: 30px;
 
-  gap: 15px;
+}
+.team-list__container {
+  display: flex;
+flex-direction: column;
   width: 270px;
 }
-.name-komand {
+.team-card__name{
   font-weight: 700;
   font-size: 36px;
   line-height: calc(42 / 36);
@@ -42,15 +47,16 @@
   letter-spacing: 0.03em;
   color: var(--main-txt-cl);
 }
-.team__link-name{
+.team__link-name {
   font-family: var(--main-font);
   font-size: 14px;
   line-height: 1.71;
-
+margin-bottom: 16px;
   letter-spacing: 0.03em;
   color: #757575;
   min-width: 270px;
   min-height: 16px;
+
 }
 .team__link-name {
   font-family: var(--main-font);
@@ -60,4 +66,5 @@
   letter-spacing: 0.03em;
   color: #757575;
   min-width: 270px;
-  min-height: 16px;}
+  min-height: 16px;
+}

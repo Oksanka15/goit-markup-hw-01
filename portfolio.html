@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
     
     <link rel="stylesheet" href="./css/main.min.css" />
-    <link rel="stylesheet" href="./css/styles.css">
+   
 
 </head>
 
@@ -264,31 +264,31 @@
                 </ul>
             </div>
             <div class="footer-icons">
-                <p class="footer-join">Присойденяйтесь</p>
+                <p class="footer__join">Присойденяйтесь</p>
                 <ul class="social list footer-icons-list">
-                    <li class="social-items ">
-                        <a class="socials-link socials-icon-footer link" href="" target="_blank"
+                    <li class="social__items ">
+                        <a class="socials__link socials-icon-footer link" href="" target="_blank"
                             rel="noopener noreferrer" aria-label="інстаграм">
                             <svg class="socials-icon ft-icon" width="20" height="20">
                                 <use href="./images/icons.svg#icon-instagram-2"></use>
                             </svg></a>
                     </li>
-                    <li class="social-items">
-                        <a class="socials-link socials-icon-footer link" href="" target="_blank"
+                    <li class="social__items">
+                        <a class="socials__link socials-icon-footer link" href="" target="_blank"
                             rel="noopener noreferrer" aria-label="твітер">
                             <svg class="socials-icon ft-icon" width="20" height="20">
                                 <use href="./images/icons.svg#icon-twiter"></use>
                             </svg></a>
                     </li>
-                    <li class="social-items">
-                        <a class="socials-link socials-icon-footer link" href="" target="_blank"
+                    <li class="social__items">
+                        <a class="socials__link socials-icon-footer link" href="" target="_blank"
                             rel="noopener noreferrer" aria-label="фейсбук">
                             <svg class="socials-icon ft-icon" width="20" height="20">
                                 <use href="./images/icons.svg#icon-facebook-1"></use>
                             </svg></a>
                     </li>
-                    <li class="social-items">
-                        <a class="socials-link  socials-icon-footer link" href="" target="_blank"
+                    <li class="social__items">
+                        <a class="socials__link  socials-icon-footer link" href="" target="_blank"
                             rel="noopener noreferrer" aria-label="лінкедін">
                             <svg class="socials-icon ft-icon" width="20" height="20">
                                 <use href="./images/icons.svg#icon-linkedin-1"></use>
@@ -297,9 +297,18 @@
                 </ul>
             </div>
             <div class="form">
-                <form class="footer-form">
-                    <label for="name" class="footer-join form-name">Подпишитесь на рассылку</label>
-                    <input type="text" name="name" value="" id="name" class="footer-input">
+                <form class="form__footer">
+                    <p class="form__join form-name">Подпишитесь на рассылку</p>
+                    <label for="subscription">
+                      <input
+                        class="footer-input"
+                        type="text"
+                        name="subscription"
+                        value=""
+                        id="subscription"
+                        placeholder="E-mail"
+                      />
+                    </label>
 
                     <button type="submit" class="btn-subm">Подписаться<svg class="icon-icon-send" width="24"
                             height="24">
