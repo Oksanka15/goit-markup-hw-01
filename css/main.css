@@ -637,7 +637,7 @@ p {
   padding-bottom: 20px;
 }
 
-.footer-icons {
+.footer__icons-list {
   padding-top: 12px;
   margin-right: 93px;
   margin-left: 70px;
@@ -647,6 +647,15 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
 }
 
 .form__join {
@@ -667,7 +676,13 @@ p {
   fill: #ffffff;
 }
 
-.footer-icons-list {
+.form__icons {
+  padding-top: 12px;
+  margin-right: 93px;
+  margin-left: 70px;
+}
+
+.form__icons-list {
   margin-top: 20px;
   margin-left: -5px;
 }
@@ -683,7 +698,7 @@ p {
   position: relative;
 }
 
-.footer__join {
+.form__join {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1428571429;
@@ -1163,8 +1178,7 @@ p {
 
 .btn-subm {
   position: absolute;
-  top: 48px;
-  left: 370px;
+  margin-left: 12px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
